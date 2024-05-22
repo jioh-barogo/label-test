@@ -14,7 +14,7 @@ jobs:
       pull-requests: write # PR에 라벨을 추가하기 위해 필요
     steps:
       - name: Run PR Labeler And Assignee
-        uses: kek2410/pr-labeler@v1.0.0
+        uses: label-test/pr-labeler@v1.0.0
         with:
           configuration-path: .github/labeler-config.yml
           assignees: author
