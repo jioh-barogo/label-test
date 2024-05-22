@@ -1,0 +1,16 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+*.DS_Store
+.DS_Store
+
+logs/
+
+server/push-server/docker/docker/dynamodb/shared-local-instance.db
+.history
+
+**/.jqwik-database
+shared-local-instance.db
